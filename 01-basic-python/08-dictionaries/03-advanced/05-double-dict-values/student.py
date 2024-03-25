@@ -1,9 +1,9 @@
 def double_dict_values(dictionary):
-    dict = {}
-    for k, v in dictionary:
+    newdict = {}
+    for k, v in dictionary.items():
         nv = v * 2
-        dict[k] = nv
-    return dict
+        newdict[k] = nv
+    return newdict
 
 dictionary = {'a': 1, 'b': 2, 'c': 3}
 print(double_dict_values(dictionary))
