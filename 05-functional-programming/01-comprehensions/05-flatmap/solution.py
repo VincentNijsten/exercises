@@ -1,6 +1,5 @@
 from util import Card
 
-
 def genres(movies):
     return {
         genre
